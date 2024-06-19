@@ -155,8 +155,9 @@ boxplot(WORDSUM~DEGREE,data=GSSdata)
 
 #### Numerical Descriptive Results
 ```{r}
-favstats(alcohol~Seat,data=ucdavis1)
+favstats(WORDSUM~DEGREE,data=GSSdata)
 ```
+The numerical descriptive results reflect that the graduates have the highest mean and it is less than high school because it has the lowest mean.
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist  the data as focused toward the research question!-->
 
@@ -179,12 +180,13 @@ There is no difference between high school and less than high school.
 There is a difference between junior college and high school.
 There is a difference between bachelors and high school.
 There is a difference between graduate and high school.
-There is no difference between high schol and graduate.
+There is no difference between high school and graduate.
 There is no difference between junior college and graduate.
 There is no difference between bachelors and graduates.
 
 # Discussion and Conclusion
 
+In conclusion theren is a difference in the mean levels of the degree. Th relationship does occur because the variable causes the other and they are related because of the data.
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
 #### Question 1: is gun ownership independant of opinion on capital punishment. The summary results and the inferential results show that they are not independant. 
