@@ -70,6 +70,8 @@ table1 <- xtabs(~OWNGUN + CAPPUN,data=GSSdata)
 rowPerc(table1)
 colPerc(table1)
 ```
+Numerical summary shows that 75% of gun owners favor CAPPUN 
+
 
 ### Inferential Results
 
